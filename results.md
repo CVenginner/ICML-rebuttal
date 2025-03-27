@@ -11,11 +11,7 @@
 | Ours (ABKD) | 30.25 (0.37) | 22.39 (0.62) | 20.83 (0.42) | 38.51 (0.32) | 38.66 (0.10) |
 
 
-## Table: Effects of Our Framework Using Different SGO Strategies
-
-**Caption:** Effects of our framework using different SGO strategies (*i.e.*, On-policy, Mixed, and Adaptive Off-policy). "Fixed" denotes that our framework uses only the original dataset for training without augmentation. Following [Ko et al., 2024](#), in the mixed strategy, we apply the on-policy optimization method with a probability of 0.5. Otherwise, we sample from the fixed dataset.
-
-**Table:**
+** Table: Effects of Our Framework Using Different SGO Strategies. Effects of our framework using different SGO strategies (*i.e.*, On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation. ** 
 
 | **Method** | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
 |------------|--------------|----------------|--------------|----------------|------------|
