@@ -1,5 +1,23 @@
-| Name  | Age | Country  |
-|-------|-----|----------|
-| Alice | 25  | USA      |
-| Bob   | 30  | Canada   |
-| Carol | 22  | Germany  |
+<table>
+    <caption><strong>Table 1: User Information</strong></caption>
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alice</td>
+        <td>25</td>
+        <td>USA</td>
+    </tr>
+    <tr>
+        <td>Bob</td>
+        <td>30</td>
+        <td>Canada</td>
+    </tr>
+    <tr>
+        <td>Carol</td>
+        <td>22</td>
+        <td>Germany</td>
+    </tr>
+</table>
