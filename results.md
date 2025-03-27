@@ -32,5 +32,9 @@
 | DISTILLM | 1.331                      |
 | Ours     | 0.772                      |
 
-![dolly](https://github.com/user-attachments/assets/f2aedfd6-e79e-4149-ab17-05caae209cea)
-**Figure 2. Performance of different loss functions on the validation set over the entire training process.**
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f2aedfd6-e79e-4149-ab17-05caae209cea" alt="dolly" width="500">
+</p>
+
+**Figure 2.** Performance of different loss functions on the validation set over the entire training process.
+
