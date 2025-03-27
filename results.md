@@ -22,13 +22,13 @@
 
 **Table 3:Training Time Comparison (sec/sample).**
 
-| Method   | Training Time (sec/sample) |
+| Method   | Training Time (second/sample) |
 |----------|---------------------------|
-| SFT      | 2.91                      |
-| KD       | 1.54                      |
-| SeqKD    | 1.34                      |
-| MiniLLM  | 0.22                      |
-| GKD      | 0.48                      |
-| DISTILLM | 0.75                      |
-| Ours     | 1.25                      |
+| SFT      | 0.344                      |
+| KD       | 0.649                      |
+| SeqKD    | 0.744                      |
+| MiniLLM  | 4.452                      |
+| GKD      | 2.078                      |
+| DISTILLM | 1.331                      |
+| Ours     | 0.772                      |
 
