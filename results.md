@@ -20,4 +20,15 @@
 | DISTILLM  | 28.24 (0.48) | 21.00 (0.72) | 19.12 (0.53) | 37.06 (0.35) | 35.05 (0.13) |
 | Ours (ABKD) | 30.25 (0.37) | 22.39 (0.62) | 20.83 (0.42) | 38.51 (0.32) | 38.66 (0.10) |
 
+**Table 3:Training Time Comparison (sec/sample).**
+
+| Method   | Training Time (sec/sample) |
+|----------|---------------------------|
+| SFT      | 2.91                      |
+| KD       | 1.54                      |
+| SeqKD    | 1.34                      |
+| MiniLLM  | 0.22                      |
+| GKD      | 0.48                      |
+| DISTILLM | 0.75                      |
+| Ours     | 1.25                      |
 
