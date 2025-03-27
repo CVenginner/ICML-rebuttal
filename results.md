@@ -20,12 +20,8 @@
 | **Method** | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
 |------------|--------------|----------------|--------------|----------------|------------|
 | **Prior SOTA result** | 25.32 (0.14) | 12.49 (0.56) | 17.30 (0.41) | 23.76 (0.38) | 25.79 (0.08) |
-| **Fixed + Ours** | 25.65 (0.24) | 13.47 (0.42) | 16.06 (0.25) | 26.47 (0.31) | 29.32 (0.08) |
-| **On-policy [Gu et al., 2024](#) + Ours** | 25.96 (0.42) | 13.44 (0.37) | <span style="background-color:#EAF1F9">17.32 (0.38)</span> | 26.86 (0.26) | 29.57 (0.13) |
-| **Mixed [Agarwal et al., 2024](#) + Ours** | <span style="background-color:#EAF1F9">26.49 (0.23)</span> | <span style="background-color:#C0D6EC"><strong>14.62</strong> (0.27)</span> | 17.14 (0.26) | <span style="background-color:#EAF1F9">27.54 (0.44)</span> | <span style="background-color:#EAF1F9">30.98 (0.09)</span> |
-| **Adaptive Off-policy [Ko et al., 2024](#) + Ours** | <span style="background-color:#C0D6EC"><strong>26.58</strong> (0.18)</span> | <span style="background-color:#EAF1F9">14.25 (0.25)</span> | <span style="background-color:#C0D6EC"><strong>17.79</strong> (0.35)</span> | <span style="background-color:#C0D6EC"><strong>27.79</strong> (0.26)</span> | <span style="background-color:#C0D6EC"><strong>31.13</strong> (0.12)</span> |
+| **Fixed (KD) + Ours** | 25.65 (0.24) | 13.47 (0.42) | 16.06 (0.25) | 26.47 (0.31) | 29.32 (0.08) |
+| **On-policy (MiniLLM) + Ours** | 25.96 (0.42) | 13.44 (0.37) | <span style="background-color:#EAF1F9">17.32 (0.38)</span> | 26.86 (0.26) | 29.57 (0.13) |
+| **Mixed (GKD) + Ours** | <span style="background-color:#EAF1F9">26.49 (0.23)</span> | <span style="background-color:#C0D6EC"><strong>14.62</strong> (0.27)</span> | 17.14 (0.26) | <span style="background-color:#EAF1F9">27.54 (0.44)</span> | <span style="background-color:#EAF1F9">30.98 (0.09)</span> |
+| **Adaptive Off-policy (DISTILLM) + Ours** | <span style="background-color:#C0D6EC"><strong>26.58</strong> (0.18)</span> | <span style="background-color:#EAF1F9">14.25 (0.25)</span> | <span style="background-color:#C0D6EC"><strong>17.79</strong> (0.35)</span> | <span style="background-color:#C0D6EC"><strong>27.79</strong> (0.26)</span> | <span style="background-color:#C0D6EC"><strong>31.13</strong> (0.12)</span> |
 
-**Legend:**
-- **Best results** are highlighted in **bold**.
-- **Second-best results** are shaded in light blue (#EAF1F9).
-- **Best results** are shaded in a darker blue (#C0D6EC).
