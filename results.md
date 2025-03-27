@@ -32,7 +32,7 @@
 | DISTILLM | 1.331                      |
 | Ours     | 0.772                      |
 
-<p align="center">
+<p >
   <img src="https://github.com/user-attachments/assets/f2aedfd6-e79e-4149-ab17-05caae209cea" alt="dolly" width="500">
 </p>
 
