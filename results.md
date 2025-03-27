@@ -1,4 +1,4 @@
-**Table 1: Effects of our framework using different SGO strategies (*i.e.*, On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation.**
+![rougel_1](https://github.com/user-attachments/assets/c3c97f02-4bf8-4907-90a6-caec4655ef17)**Table 1: Effects of our framework using different SGO strategies (*i.e.*, On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation.**
 
 | **Method** | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
 |------------|--------------|----------------|--------------|----------------|------------|
@@ -33,8 +33,7 @@
 | Ours     | 0.772                      |
 
 <p >
-  <img src="https://github.com/user-attachments/assets/f2aedfd6-e79e-4149-ab17-05caae209cea" alt="dolly" width="500">
+  <img src="https://github.com/user-attachments/assets/409f86b7-3773-4cb0-9621-42f98512478e" alt="dolly" width="500">
 </p>
 
 **Figure 2.** Performance of different loss functions on the Dolly validation set over the entire training process.
-
