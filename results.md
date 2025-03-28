@@ -10,6 +10,8 @@
 | Mixed (GKD) + Ours | 26.49 (0.23) | **14.62** (0.27) | 17.14 (0.26) | 27.54 (0.44)| 30.98 (0.09) |
 | Adaptive Off-policy (DISTILLM) + Ours | **26.58** (0.18)</span> | 14.25 (0.25) | **17.79** (0.35) | **27.79** (0.26) | **31.13** (0.12) |
 
+---
+
 **Table 2: ROUGE-L scores (↑) for OpenLLaMA2-3B across five task-agnostic instruction-following datasets, with OpenLLaMA2-7B serving as the teacher model.**
 
 | Method    | Dolly Eval | Self-Instruct | Vicuna Eval | Super-Natural | Unnatural |
@@ -21,6 +23,9 @@
 | MINILLM   | 27.74 (0.45) | 20.61 (0.80) | 18.83 (0.40) | 35.31 (0.24) | 33.86 (0.16) |
 | DISTILLM  | 28.24 (0.48) | 21.00 (0.72) | 19.12 (0.53) | 37.06 (0.35) | 35.05 (0.13) |
 | Ours (ABKD) | **30.25** (0.37) | **22.39** (0.62) | **20.83** (0.42) | **38.51** (0.32) | **38.66** (0.10) |
+
+
+---
 
 **Table 3:Training Time Comparison (second/sample). SeqKD denotes supervised fine-tuning on teacher outputs.**
 
@@ -34,12 +39,15 @@
 | DISTILLM | 1.331                      |
 | Ours     | 0.772                      |
 
+---
+
 <p >
   <img src="https://github.com/user-attachments/assets/409f86b7-3773-4cb0-9621-42f98512478e" alt="dolly" width="500">
 </p>
 
 **Figure 2.** Performance of different loss functions on the Dolly validation set over the entire training process.
 
+---
 
 **Table 4: ROUGE-L scores (↑) for GPT-2 (0.1B) across five task-agnostic instruction-following datasets, with GPT-2 XL (1.5B) serving as the teacher model.**
 
@@ -52,3 +60,6 @@
 | Jensen's KL     | 23.79 (0.24) | 11.52 (0.18) | 15.35 (0.80) | 21.36 (0.17) | 21.97 (0.10) |
 | AKL       | 23.83 (0.59) | 10.87 (0.42) | 15.73 (0.66) | 20.07 (0.32) | 21.97 (0.13) |
 | Ours (ABKD) | **25.65** (0.24) | **13.47** (0.42) | **16.06** (0.25) | **26.47** (0.31) | **29.32** (0.08) |
+
+
+---
