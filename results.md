@@ -1,3 +1,5 @@
+<center>
+
 ***
 
 **Table 1: Effects of our framework using different data augmentation strategies (*i.e.*, On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation.**
@@ -61,3 +63,5 @@
 | Ours (ABKD) | **25.65** (0.24) | **13.47** (0.42) | **16.06** (0.25) | **26.47** (0.31) | **29.32** (0.08) |
 
 ***
+
+</center>
