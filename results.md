@@ -1,8 +1,10 @@
-<center>
+
 
 ***
 
 **Table 1: Effects of our framework using different data augmentation strategies (*i.e.*, On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation.**
+
+<center>
 
 | **Method** | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
 |------------|--------------|----------------|--------------|----------------|------------|
@@ -11,6 +13,8 @@
 | On-policy (MiniLLM) + Ours | 25.96 (0.42) | 13.44 (0.37) | 17.32 (0.38) | 26.86 (0.26) | 29.57 (0.13) |
 | Mixed (GKD) + Ours | 26.49 (0.23) | **14.62** (0.27) | 17.14 (0.26) | 27.54 (0.44)| 30.98 (0.09) |
 | Adaptive Off-policy (DISTILLM) + Ours | **26.58** (0.18) | 14.25 (0.25) | **17.79** (0.35) | **27.79** (0.26) | **31.13** (0.12) |
+
+</center>
 
 ***
 
@@ -64,4 +68,4 @@
 
 ***
 
-</center>
+
