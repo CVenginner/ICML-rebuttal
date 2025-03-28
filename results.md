@@ -10,6 +10,7 @@
 | Mixed (GKD) + Ours | 26.49 (0.23) | **14.62** (0.27) | 17.14 (0.26) | 27.54 (0.44)| 30.98 (0.09) |
 | Adaptive Off-policy (DISTILLM) + Ours | **26.58** (0.18)</span> | 14.25 (0.25) | **17.79** (0.35) | **27.79** (0.26) | **31.13** (0.12) |
 
+---
 
 **Table 2: ROUGE-L scores (↑) for OpenLLaMA2-3B across five task-agnostic instruction-following datasets, with OpenLLaMA2-7B serving as the teacher model.**
 
