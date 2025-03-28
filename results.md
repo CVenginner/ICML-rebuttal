@@ -1,5 +1,5 @@
 
-**Table 1: Effects of our framework using different SGO (*i.e.,* data augmentation) strategies (*i.e.*, On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation.**
+**Table 1: Effects of our framework using different data augmentation strategies (*i.e.*, On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation.**
 
 | **Method** | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
 |------------|--------------|----------------|--------------|----------------|------------|
