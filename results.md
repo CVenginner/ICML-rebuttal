@@ -37,7 +37,7 @@
 | DISTILLM | 1.331                      |
 | Ours     | 0.772                      |
 
----
+
 
 <p >
   <img src="https://github.com/user-attachments/assets/409f86b7-3773-4cb0-9621-42f98512478e" alt="dolly" width="500">
@@ -45,7 +45,7 @@
 
 **Figure 2.** Performance of different loss functions on the Dolly validation set over the entire training process.
 
----
+
 
 **Table 4: ROUGE-L scores (↑) for GPT-2 (0.1B) across five task-agnostic instruction-following datasets, with GPT-2 XL (1.5B) serving as the teacher model.**
 
@@ -59,5 +59,3 @@
 | AKL       | 23.83 (0.59) | 10.87 (0.42) | 15.73 (0.66) | 20.07 (0.32) | 21.97 (0.13) |
 | Ours (ABKD) | **25.65** (0.24) | **13.47** (0.42) | **16.06** (0.25) | **26.47** (0.31) | **29.32** (0.08) |
 
-
----
