@@ -2,7 +2,7 @@
 
 ***
 
-**Table 2: ROUGE-L scores (↑) for OpenLLaMA2-3B across five task-agnostic instruction-following datasets, with OpenLLaMA2-7B serving as the teacher model.**
+**Table 1: Effects of our framework using different data augmentation strategies (i.e., On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation.**
 
 <center>
 
@@ -63,7 +63,7 @@
 | AlphaNet       | 25.13 (0.27) | 12.46 (0.46) | 15.68 (0.40) | 25.67 (0.20) | 27.86 (0.15) |
 | BDKD        | 23.94 (0.24) | 11.83 (0.39) | 15.21 (0.23) | 19.56 (0.23) | 21.66 (0.23) |
 | Jensen's KL     | 23.79 (0.24) | 11.52 (0.18) | 15.35 (0.80) | 21.36 (0.17) | 21.97 (0.10) |
-| AKL       | 23.83 (0.59) | 10.87 (0.42) | 15.73 (0.66) | 20.07 (0.32) | 21.97 (0.13) |
+| AKL       | 23.83 (0.59) | 10.87 (0.42) | 15.63 (0.66) | 20.07 (0.32) | 21.97 (0.13) |
 | Ours (ABKD) | **25.65** (0.24) | **13.47** (0.42) | **16.06** (0.25) | **26.47** (0.31) | **29.32** (0.08) |
 
 ***
