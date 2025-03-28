@@ -1,5 +1,5 @@
 
-**Table 1: Effects of our framework using different SGO strategies (*i.e.*, On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation.**
+**Table 1: Effects of our framework using different SGO (*i.e.,* data augmentation) strategies (*i.e.*, On-policy (from MINILLM), Mixed (from GKD), and Adaptive Off-policy (from DISTILLM)). "Fixed" denotes that our framework uses only the original dataset for training without augmentation.**
 
 | **Method** | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
 |------------|--------------|----------------|--------------|----------------|------------|
@@ -21,7 +21,7 @@
 | DISTILLM  | 28.24 (0.48) | 21.00 (0.72) | 19.12 (0.53) | 37.06 (0.35) | 35.05 (0.13) |
 | Ours (ABKD) | **30.25** (0.37) | **22.39** (0.62) | **20.83** (0.42) | **38.51** (0.32) | **38.66** (0.10) |
 
-**Table 3:Training Time Comparison (sec/sample).**
+**Table 3:Training Time Comparison (second/sample). SeqKD denotes supervised fine-tuning on teacher outputs.**
 
 | Method   | Training Time (second/sample) |
 |----------|---------------------------|
