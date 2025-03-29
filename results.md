@@ -42,13 +42,13 @@ deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 | MiniLLM  | 4.452                      |
 | GKD      | 2.078                      |
 | DISTILLM | 1.331                      |
-| Ours     | 0.772                      |
+|AlphaNet|  0.882 |
+| Ours     | 0.768                      |
 
 ***
 
-
 <p >
-  <img src="https://github.com/user-attachments/assets/8ef32724-24a7-4684-a801-112ecca5aae6" alt="dolly" width="500">
+  <img src="https://github.com/user-attachments/assets/1cb9788c-5328-4f95-b2d5-ceaf5b32a134" alt="dolly" width="500">
 </p>
 
 **Figure 1.** Performance of different loss functions on the Dolly validation set over the entire training process.
