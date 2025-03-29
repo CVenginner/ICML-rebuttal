@@ -1,6 +1,4 @@
 
-$\alpha$-$\beta$-divergence
-
 
 ***
 **Table 1: ROUGE-L scores (↑) of different loss functions on five task-agostic instruction-following datasets. We report the average and standard
