@@ -1,7 +1,7 @@
 
 
 ***
-**Table 1: Evaluation of the effect of different loss functions. We report the average and standard
+**Table 1: ROUGE-L scores (↑) of different loss functions on five task-agostic instruction-following datasets. We report the average and standard
 deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
 | **Loss Function**         | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
