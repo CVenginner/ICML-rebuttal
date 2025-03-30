@@ -19,7 +19,7 @@
   <img src="https://github.com/user-attachments/assets/1cb9788c-5328-4f95-b2d5-ceaf5b32a134" alt="dolly" width="500">
 </p>
 
-**Figure 1.** Performance of different loss functions on the Dolly validation set over the entire training process.
+**Figure 1: Performance of different loss functions on the Dolly validation set over the entire training process.**
 
 ***
 
