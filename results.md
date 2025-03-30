@@ -1,7 +1,7 @@
 
 ***
 
-**Table 1:Training Time Comparison (second/sample).**
+**Table 1: Training Time Comparison (second/sample).**
 
 | Method   | Training Time (second/sample) |
 |----------|---------------------------|
