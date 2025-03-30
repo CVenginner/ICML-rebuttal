@@ -1,7 +1,29 @@
 
+***
+
+**Table 1:Training Time Comparison (second/sample).**
+
+| Method   | Training Time (second/sample) |
+|----------|---------------------------|
+| SFT      | 0.344                      |
+| KD       | 0.649                      |
+| MiniLLM  | 4.452                      |
+| GKD      | 2.078                      |
+| DISTILLM | 1.331                      |
+|AlphaNet|  0.882 |
+| Ours     | 0.768                      |
 
 ***
-**Table 1: ROUGE-L scores (↑) of different loss functions on five task-agostic instruction-following datasets. We report the average and standard
+
+<p >
+  <img src="https://github.com/user-attachments/assets/1cb9788c-5328-4f95-b2d5-ceaf5b32a134" alt="dolly" width="500">
+</p>
+
+**Figure 1.** Performance of different loss functions on the Dolly validation set over the entire training process.
+
+***
+
+**Table 2: ROUGE-L scores (↑) of different loss functions on five task-agostic instruction-following datasets. We report the average and standard
 deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
 | **Loss Function**         | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
@@ -18,7 +40,7 @@ deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
 ***
 
-**Table 2: ROUGE-L scores (↑) for OpenLLaMA2-3B across five task-agnostic instruction-following datasets, with OpenLLaMA2-7B serving as the teacher model.**
+**Table 3: ROUGE-L scores (↑) for OpenLLaMA2-3B across five task-agnostic instruction-following datasets, with OpenLLaMA2-7B serving as the teacher model.**
 
 | Method    | Dolly Eval | Self-Instruct | Vicuna Eval | Super-Natural | Unnatural |
 |-----------|-----------|---------------|-------------|---------------|-----------|
@@ -29,29 +51,6 @@ deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 | MINILLM   | 27.74 (0.45) | 20.61 (0.80) | 18.83 (0.40) | 35.31 (0.24) | 33.86 (0.16) |
 | DISTILLM  | 28.24 (0.48) | 21.00 (0.72) | 19.12 (0.53) | 37.06 (0.35) | 35.05 (0.13) |
 | Ours (ABKD) | **30.25** (0.37) | **22.39** (0.62) | **20.83** (0.42) | **38.51** (0.32) | **38.66** (0.10) |
-
-***
-
-**Table 3:Training Time Comparison (second/sample). SeqKD denotes supervised fine-tuning on teacher outputs.**
-
-| Method   | Training Time (second/sample) |
-|----------|---------------------------|
-| SFT      | 0.344                      |
-| KD       | 0.649                      |
-| SeqKD    | 0.744                      |
-| MiniLLM  | 4.452                      |
-| GKD      | 2.078                      |
-| DISTILLM | 1.331                      |
-|AlphaNet|  0.882 |
-| Ours     | 0.768                      |
-
-***
-
-<p >
-  <img src="https://github.com/user-attachments/assets/1cb9788c-5328-4f95-b2d5-ceaf5b32a134" alt="dolly" width="500">
-</p>
-
-**Figure 1.** Performance of different loss functions on the Dolly validation set over the entire training process.
 
 ***
 
