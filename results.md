@@ -1,7 +1,7 @@
 
 ***
 
-**Table 1: Training Time Comparison (second/sample) for distilling GPT-2 XL (1.5B) to GPT-2 (0.1B).**
+**Table 1: Training Time Comparison (second/sample) for distilling GPT-2 XL (1.5B) into GPT-2 (0.1B).**
 
 | Method   | Training Time (second/sample) |
 |----------|---------------------------|
@@ -23,7 +23,7 @@
 
 ***
 
-**Table 2: ROUGE-L scores (↑) of different loss functions on five task-agostic instruction-following datasets when distilling GPT-2 XL (1.5B) to GPT-2 (0.1B). We report the average and standard
+**Table 2: ROUGE-L scores (↑) of different loss functions on five task-agostic instruction-following datasets when distilling GPT-2 XL (1.5B) into GPT-2 (0.1B). We report the average and standard
 deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
 | **Loss Function**         | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
@@ -40,7 +40,7 @@ deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
 ***
 
-**Table 3: ROUGE-L scores (↑) on five task-agnostic instruction-following datasets when distilling OpenLLaMA2-7B to OpenLLaMA2-3B.**
+**Table 3: ROUGE-L scores (↑) on five task-agnostic instruction-following datasets when distilling OpenLLaMA2-7B into OpenLLaMA2-3B.**
 
 | Method    | Dolly Eval | Self-Instruct | Vicuna Eval | Super-Natural | Unnatural |
 |-----------|-----------|---------------|-------------|---------------|-----------|
