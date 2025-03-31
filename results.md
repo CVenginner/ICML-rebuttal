@@ -1,7 +1,7 @@
 
 ***
 
-**Table 1: Training Time Comparison (second/sample).**
+**Table 1: Training Time Comparison (second/sample) for distilling GPT-2 XL (1.5B) to GPT-2 (0.1B).**
 
 | Method   | Training Time (second/sample) |
 |----------|---------------------------|
@@ -23,7 +23,7 @@
 
 ***
 
-**Table 2: ROUGE-L scores (↑) of different loss functions on five task-agostic instruction-following datasets. We report the average and standard
+**Table 2: ROUGE-L scores (↑) of different loss functions on five task-agostic instruction-following datasets when distilling GPT-2 XL (1.5B) to GPT-2 (0.1B). We report the average and standard
 deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
 | **Loss Function**         | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
@@ -40,16 +40,18 @@ deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
 ***
 
-**Table 3: ROUGE-L scores (↑) for OpenLLaMA2-3B across five task-agnostic instruction-following datasets, with OpenLLaMA2-7B serving as the teacher model.**
+**Table 3: ROUGE-L scores (↑) on five task-agnostic instruction-following datasets when distilling OpenLLaMA2-7B to OpenLLaMA2-3B.**
 
 | Method    | Dolly Eval | Self-Instruct | Vicuna Eval | Super-Natural | Unnatural |
 |-----------|-----------|---------------|-------------|---------------|-----------|
 | SFT       | 24.54 (0.51) | 16.80 (0.64) | 16.15 (0.15) | 29.29 (0.13) | 27.43 (0.21) |
-| KD        | 25.23 (0.44) | 18.90 (1.20) | 16.67 (0.35) | 31.68 (0.22) | 29.36 (0.13) |
-| SeqKD     | 26.28 (0.43) | 18.84 (0.66) | 17.81 (0.38) | 30.92 (0.12) | 29.89 (0.10) |
-| GKD       | 26.28 (0.43) | 18.84 (0.66) | 17.81 (0.38) | 30.92 (0.12) | 29.79 (0.17) |
-| MINILLM   | 27.74 (0.45) | 20.61 (0.80) | 18.83 (0.40) | 35.31 (0.24) | 33.86 (0.16) |
+| FKLD        | 25.23 (0.44) | 18.90 (1.20) | 16.67 (0.35) | 31.68 (0.22) | 29.36 (0.13) |
+| RKLD   | 27.74 (0.45) | 20.61 (0.80) | 18.83 (0.40) | 35.31 (0.24) | 33.86 (0.16) |
+| Jensen's KL       | 26.28 (0.43) | 18.84 (0.66) | 17.81 (0.38) | 30.92 (0.12) | 29.79 (0.17) |
+| BDKD       | 26.78 (0.53) | 18.94 (0.68) | 17.81 (0.52) | 32.15 (0.34) | 30.89 (0.24)  |
+| AKL       | 26.38 (0.41) | 17.69 (0.46) | 16.72 (0.48) | 33.02 (0.16) | 31.29 (0.08) |
 | DISTILLM  | 28.24 (0.48) | 21.00 (0.72) | 19.12 (0.53) | 37.06 (0.35) | 35.05 (0.13) |
+| AlphaNet  | 28.11 (0.29) | 21.30 (0.63) | 18.70 (0.23) | 37.86 (0.44) | 35.40 (0.17) |
 | Ours (ABKD) | **30.25** (0.37) | **22.39** (0.62) | **20.83** (0.42) | **38.51** (0.32) | **38.66** (0.10) |
 
 ***
