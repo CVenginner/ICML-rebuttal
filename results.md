@@ -26,7 +26,7 @@
 **Table 2: ROUGE-L scores (↑) of different loss functions on five task-agostic instruction-following datasets when distilling GPT-2 XL (1.5B) into GPT-2 (0.1B). We report the average and standard
 deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
-| **Loss Function**         | **Dolly Eval** | **Self-Instruct** | **Vicuna Eval** | **Super-Natural** | **Unnatural** |
+| **Loss Function**         | **Dolly** | **Self-Instruct** | **Vicuna** | **Super-Natural** | **Unnatural** |
 |---------------------------|----------------|-------------------|-----------------|-------------------|---------------|
 | **FKLD**                  | 23.80 (0.37)   | 10.01 (0.75)      | 15.25 (0.65)    | 17.69 (0.26)      | 18.99 (0.05)  |
 | **RKLD**                  | 24.77 (0.37)   | 12.02 (0.48)      | 15.06 (0.28)    | 23.27 (0.29)      | 26.01 (0.11)  |
@@ -42,7 +42,7 @@ deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
 **Table 3: ROUGE-L scores (↑) on five task-agnostic instruction-following datasets when distilling OpenLLaMA2-7B into OpenLLaMA2-3B.**
 
-| Method    | Dolly Eval | Self-Instruct | Vicuna Eval | Super-Natural | Unnatural |
+| Method    | Dolly | Self-Instruct | Vicuna | Super-Natural | Unnatural |
 |-----------|-----------|---------------|-------------|---------------|-----------|
 | SFT       | 24.54 (0.51) | 16.80 (0.64) | 16.15 (0.15) | 29.29 (0.13) | 27.43 (0.21) |
 | FKLD        | 25.23 (0.44) | 18.90 (1.20) | 16.67 (0.35) | 31.68 (0.22) | 29.36 (0.13) |
