@@ -1,7 +1,7 @@
 
 ***
 
-**Table 1: Training Time Comparison (second/sample) for distilling GPT-2 XL (1.5B) into GPT-2 (0.1B).**
+**Table 1: Training Time Comparison (second/sample) for distilling GPT-2 XL (1.5B) into GPT-2 (0.1B). SFT denotes supervised fine-tuning on the training dataset. KD uses FKLD (forward KL) as the distillation objective. GKD uses Jensen's KL as the distillation objective. MiniLLM uses RKLD (reverse KL) as the distillation objective. AlphaNet uses the larger divergence between two parameters as the distillation objective.**
 
 | Method   | Training Time (second/sample) |
 |----------|---------------------------|
