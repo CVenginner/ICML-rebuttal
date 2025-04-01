@@ -40,7 +40,7 @@ deviation of ROUGE-L scores across five random seeds \[10, 20, 30, 40, 50\].**
 
 ***
 
-**Table 3: ROUGE-L scores (↑) on five task-agnostic instruction-following datasets when distilling OpenLLaMA2-7B into OpenLLaMA2-3B.**
+**Table 3: ROUGE-L scores (↑) on five task-agnostic instruction-following datasets when distilling OpenLLaMA2-8B into OpenLLaMA2-3B.**
 
 | Method    | Dolly | Self-Instruct | Vicuna | Super-Natural | Unnatural |
 |-----------|-----------|---------------|-------------|---------------|-----------|
